@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+}
+body{
+    height: 660px;
+}
+.header{
+    background-color: skyblue;
+    width: 100%;
+    height: 20%;
+    font-size: 2em;
+    text-align: center;
+}
+.milieu{
+    display: flex;
+    
+    width: 100%;
+    height: 73%;
+}
+.milieu .menu{
+    /* position: relative;
+    flex-direction: column;
+    background-color: palevioletred;*/
+    height: 100%;
+    width: 15%;
+} 
+.milieu .menu .menuH{
+    background-color: #64FF33;
+    width: 100%;
+    height: 50%;
+}
+.milieu .menu .menuB{
+    background-color: palevioletred;
+    width: 100%;
+    height: 50%;
+}
+.milieu .center{
+    
+    background-color: yellow;
+    height: 100%;
+    width: 85%;
+    font-size: 2em;
+    text-align: center;
+}
+.milieu .center .haut{
+    display: flex;
+    width: 100%;
+}
+.ma{
+    display: flex;
+    flex-direction: column;
+}
+.milieu .center .haut .texte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+}
+.milieu .center .haut .bloc{
+    background-color: #FF4933;
+    margin-left: auto;
+    display: block;
+    width: 15%;
+    height: 130px;
+    text-align: center;
+    font-size: 0.6em;
+    border: 1px solid #FF4933;
+}
+.footer{
+    background-color: #33FF9C;
+    height: 20%;
+    width: 100%;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header h1{
+    padding: 30px;
+}
+.footer h1{
+    padding: 30px;
+}
+.menuH h1{
+    text-align: center;
+    display: flex;
+   
+align-items: center;
+justify-content: center;
+    padding-top: 40px;
+}
+.menuB h1{
+    text-align: center;
+    padding-top: 40px;
+    display: flex;
+    
+align-items: center;
+justify-content: center;
+}
+.milieu .center .contenu h1{
+    padding: 80px;
+}
+a{
+    
+    text-decoration: none;
+    color: black;
+}
+@media  (max-width: 967px){
+    .milieu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 700PX;
+        background-color: #ea2f1a;
+        
+        
+    }
+    .ma, .contenu{
+        display: none;
+    }
+    .milieu .menu{
+        height: 200px;
+        width: 100%;
+    }
+    .milieu .center{
+        background-color: yellow;
+        height: 500px;
+        width: 100%;
+        font-size: 2em;
+
+    }
+    .milieu .center .haut{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    justify-content: center;
+        width: 100%;
+        height: 500px;
+    }
+    .milieu .center .haut .texte{
+      text-align: center;
+      height: 350px;
+        
+        
+    }
+    .milieu .center .haut .bloc{
+        background-color: #FF4933;
+        margin-left: 0;
+        display: flex;
+        gap: 15px;
+        /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+        width: 100%;
+        height: 150px;
+       
+        font-size: 0.6em;
+        border: 1px solid #FF4933;
+    }
+    .footer h1{
+        padding: 0px;
+    }
+    .menuH{
+        width: 100%;
+        background-color: #bbcdb5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+
+
+    }
+    .menuH h1{
+        display: flex;
+     align-items: center;
+        justify-content: center;
+        padding-top: 10px; 
+    }
+    .menuB h1{
+          display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top:10px;
+    }
+    .milieu .center .contenu h1{
+        padding: 80px;
+    }
+    .milieu .menu .menuB{
+        background-color: palevioletred;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+   
+     /* .menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #bbcdb5;
+    } 
+    .menuH{
+        width: 100%;
+        background-color: #bbcdb5; 
+    } */
+    /* .header{
+        font-size: 1em;
+        height: 10%;
+    }
+    .milieu .center{
+        font-size: 1em;
+        bottom: 20px;
+    }
+    .milieu .center .contenu h1{
+        padding: 5px;
+    }
+    .milieu .center .haut .bloc{
+        height: 50px;
+    }
+    .footer{
+        font-size: 1em;
+        height: 10%;
+        bottom: 20px;
+    } */
+    
+}
